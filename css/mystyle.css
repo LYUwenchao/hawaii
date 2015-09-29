@@ -1,0 +1,149 @@
+.lnav{
+	width: 100%;
+	height: 50px;
+	background-color: #2CC0F2;
+	position: fixed;
+	z-index: 999;
+}
+
+.lnav ul{
+	list-style: none;
+	margin: 0;
+}
+.lnav ul li{
+	display: inline-block;
+	line-height: 50px;
+	padding-left: 20px;
+}
+.lnav ul li a{
+	text-decoration: none;
+	color: #FFF;
+}
+.lbanner{
+	background: url(../images/image/first.jpg) no-repeat;
+	height: 363px;
+}
+.lbanner h1{
+	margin: 0;
+	color: #FFF;
+	line-height: 363px;
+	text-align: center;
+}
+.lcontent{
+	margin: 0 auto;
+	width: 1000px;
+}
+.llunbo{
+	width: 600px; 
+	height: 400px; 
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+
+.list { 
+	width: 4200px; 
+	height: 400px; 
+	position: absolute; 
+	z-index: 1;
+}
+.list img { 
+	float: left;
+}
+.arrow { 
+	cursor: pointer; 
+	display: none; 
+	line-height: 39px; 
+	text-align: center; 
+	font-size: 36px; 
+	font-weight: bold; 
+	width: 40px; 
+	height: 40px;  
+	position: absolute; 
+	z-index: 2; 
+	top: 180px; 
+	background-color: RGBA(0,0,0,.3); 
+	color: #fff;
+}
+.arrow:hover { 
+	background-color: RGBA(0,0,0,.7);
+}
+.llunbo:hover .arrow { 
+	display: block;
+}
+#prev1,#prev2 { 
+	left: 20px;
+}
+#next1,#next2 { 
+	right: 20px;
+}
+.lcontent1{
+	width: 1000px;
+	height: 450px;
+	float: left;
+}
+.lcontent-half1{
+	height: 1010px;
+}
+.linstruction{
+	width: 360px;
+	height:400px;
+	float: left;
+	margin: 0 20px;
+}
+.linstruction p{
+	margin: 0;
+}
+.piclist1{
+	list-style: none;
+	margin-left: -40px;
+	width: 1050px;
+
+}
+.piclist1 li{
+	width: 300px;
+	height: 350px;
+	margin-right:50px;
+	margin-bottom: 50px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+.piclist1 li img{
+	vertical-align: top;/*这个是否是为了消除不同浏览器的差别*/
+}
+.piclist1 div{
+	position:absolute;
+	left:0;
+	top:300px;
+	width:100%;
+	height:50px;
+	text-align:center;
+	line-height: 50px;
+	background:url(../images/image/demo02.png) no-repeat;
+	color:#FFF;
+	overflow:hidden;
+}
+.piclist1 p{
+	display:none;
+	margin:10px auto 0;
+	width:200px;
+	height: 180px;
+	line-height:30px;
+	text-align:left;
+	text-indent:2em;
+	font-size:14px;
+}
+.piclist1 h3{
+	margin:0;
+	height:50px;
+}
+.separator{
+	margin: 40px auto;
+	width: 1000px;
+	border-bottom: 3px solid #ccc;
+}
+#maodian1,#maodian2{
+	padding-top: 50px;
+}
