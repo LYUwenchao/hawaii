@@ -385,6 +385,34 @@ body {
     color: #333333;
 }
 
+/*CommentBoard*/
+#commentboard_emailSection, #commentboard_qqSection{
+    margin-left: 20px;
+}
+.commentboard_label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+.commentboard_submit{
+    margin-top: 15px;
+    background-color:#379bca;
+    border-radius: 0px;
+    color:#ffffff;
+    height: 3em;
+    border-width: 0px;
+    font-size: 1.5em;
+}
+.commentboard_button{
+    padding-left: 0px;
+}
+.commentboard_submit:hover{
+    background-color:#ffffff;
+    color:#379bca;
+    border-width:1px;
+    border-color: #379bca;
+
+}
 /*  Extra small devices (phones, less than 768px)  */
 @media (max-width: 768px ) { 
     #templatemo_banner_logo h1 {
