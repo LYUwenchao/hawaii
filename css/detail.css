@@ -177,6 +177,7 @@ body {
 	left: 0px;
 	display: inline-block;
 	height: 20px;
+	outline: none;
 }
 
 #myModal .commstar .star1 {
@@ -207,4 +208,9 @@ body {
 #myModal .commstar .active,
 #myModal .commstar a:hover{
 	background: url("../images/star.jpg") repeat-x left top;
+	border: none;
 }
+
+/*.active {
+	background: url("../images/star.jpg") repeat-x left top;
+}*/
