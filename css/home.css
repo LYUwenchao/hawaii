@@ -1,0 +1,423 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_wapper {
+    width: 100%;
+    background: #c0c0c0;
+    border-bottom: 1px solid #fff;
+}
+.section_header  {
+    height: 150px;
+    background: url("../images/section-header.png") center center no-repeat;
+}
+.section_header  h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* templatemo_main_menu */
+#templatemo_main_menu {
+    /*background: #e7eaef;*/
+    /*background: #ffffff;*/
+    background-color: rgba(255, 255, 255, 0.8);  
+    border-bottom: 1px solid #d7dadd;
+    /*z-index: 1500;*/
+}
+#templatemo_main_menu .nav-justified li {
+    height: 70px;
+}
+#templatemo_main_menu .nav-justified li a {
+    height: 70px;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000;
+    margin-right:0px;
+    margin-left:0px;
+}
+#templatemo_main_menu .nav-justified li a.current,
+#templatemo_main_menu .nav-justified li a:hover {
+    background: #35abd9; 
+    color: #fff;
+}
+
+/* slide picture */
+#slidepicture {
+    position: relative;
+    height: 750px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#slidepicture .carousel-caption {
+    margin-bottom: 200px; 
+}
+
+#slidepicture h1 {
+    font-size: 65px;
+    color: #444;
+}
+
+#slidepicture h2 {
+    font-style: none;
+    color: #444;
+}
+
+#slidepicture hr {
+    color: #ff3333;
+    border-color: #ff3333;
+    width: 350px;
+}
+
+#slidepicture .btn-explore {
+    background-color: #d45555;
+    color: #ffffff;
+    font-size: 18px;
+    height: 50px;
+    width: 150px;
+    margin-top: 100px;
+    padding-top: 10px;
+}
+
+#slidepicture .btn-explore:hover {
+    background-color: transparent;
+    border: 2px solid #d45555;
+}
+
+
+/* templatemo_upcomming_event */
+#templatemo_upcomming_event {
+    margin-top: 0px;
+    background: #ffffff;
+    /*background: #66ffff;*/
+    overflow: hidden;
+}
+#templatemo_upcomming_event h1 {
+    color: #444444;
+}
+#templatemo_upcomming_event p {
+    text-align: center;
+}
+
+#templatemo_upcomming_event .event-header p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#templatemo_upcomming_event .event_box {
+    margin-top: 30px;
+    /*margin-bottom: 60px;*/
+    padding-bottom: 30px;
+    min-height: 425px;
+    background: #eeeeee;
+    /*background: #66ffff;*/
+    box-shadow: inset 0px 0px 0px 1px rgba(210, 210, 210, 1);    
+    position: relative;
+}
+#templatemo_upcomming_event .event_box ul {
+    list-style: none;    
+    padding: 10px 10px 11px 10px;    
+    margin: 0;    
+}
+#templatemo_upcomming_event .event_box ul li {
+    list-style: none;    
+    padding: 10px 0 10px 0 ;    
+    margin: 0;
+    font-size: 14px;
+    line-height: 30px;
+    border-top: 1px solid #e2e2e2;
+}
+#templatemo_upcomming_event .event_box ul li:first-child {
+    border-top: 0px ;
+}
+#templatemo_upcomming_event .event_box ul li span{
+    padding-right: 15px;    
+    color: #35abd9;
+}
+
+#templatemo_upcomming_event .event_box div {
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    margin: auto;
+}
+
+#templatemo_upcomming_event .event_box div:hover {
+    background: #CCE5F5;
+}
+
+#templatemo_upcomming_event .event_box div p a {
+    display: block;
+    border: 2px solid #35a9d8;
+    font-size: 20px;
+    color: #35a9d8; 
+    width: 100%;
+    padding: 12px 0px;
+    text-decoration: none;
+}
+
+#templatemo_upcomming_event #prev_event_btn ,
+#templatemo_upcomming_event #next_event_btn {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+#templatemo_upcomming_event #prev_event_btn a  ,
+#templatemo_upcomming_event #next_event_btn a {
+    background: #eeeeee;
+    width: 60px;
+    height: 60px;
+	padding: 12px;
+    font-size: 28px;
+    display: block;
+    float: left;
+    color: #0eb1dc;
+}
+#templatemo_upcomming_event #prev_event_btn a:hover ,
+#templatemo_upcomming_event #next_event_btn a:hover {
+    background: #e2e2e2;
+}
+#templatemo_upcomming_event #prev_event_btn a {
+    float: right;
+}
+#templatemo_upcomming_event #next_event_btn a {
+    float: left;
+}
+
+/* templatemo_pricing */
+#templatemo_pricing {
+    background: #226080;
+    overflow: hidden;
+    margin-top: 50px;
+}
+#templatemo_pricing h1 {
+    color: #ffffff;
+}
+
+#templatemo_pricing p {
+    text-align: center;
+}
+
+#templatemo_pricing .pricing-header p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#templatemo_pricing .event_box {
+    margin-top: 70px;
+    /*margin-bottom: 60px;*/
+    padding-bottom: 30px;
+    min-height: 425px;
+    background: #eeeeee;
+    box-shadow: inset 0px 0px 0px 1px rgba(210, 210, 210, 1);    
+    position: relative;
+}
+#templatemo_pricing .event_box ul {
+    list-style: none;    
+    padding: 25px 30px 15px 30px;    
+    margin: 0;    
+}
+#templatemo_pricing .event_box ul li {
+    list-style: none;    
+    padding: 10px 0 10px 0 ;    
+    margin: 0;
+    font-size: 14px;
+    line-height: 30px;
+    border-top: 1px solid #e2e2e2;
+}
+#templatemo_pricing .event_box ul li:first-child {
+    border-top: 0px ;
+}
+#templatemo_pricing .event_box ul li span{
+    padding-right: 15px;    
+    color: #35abd9;
+}
+
+#templatemo_pricing .event_box div {
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    margin: auto;
+}
+
+#templatemo_pricing .event_box div:hover {
+    background: #CCE5F5;
+}
+
+#templatemo_pricing .event_box div p a {
+    display: block;
+    border: 2px solid #35a9d8;
+    font-size: 20px;
+    color: #35a9d8; 
+    width: 100%;
+    padding: 12px 0px;
+    text-decoration: none;
+}
+
+#templatemo_pricing #prev_event_btn ,
+#templatemo_pricing #next_event_btn {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#templatemo_pricing #prev_event_btn a  ,
+#templatemo_pricing #next_event_btn a {
+    background: #eeeeee;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    font-size: 28px;
+    display: block;
+    float: left;
+    color: #0eb1dc;
+}
+#templatemo_pricing #prev_event_btn a:hover ,
+#templatemo_pricing #next_event_btn a:hover {
+    background: #e2e2e2;
+}
+#templatemo_pricing #prev_event_btn a {
+    float: right;
+}
+#templatemo_pricing #next_event_btn a {
+    float: left;
+}
+
+
+/* templatemo_blog */
+#templatemo_blog {
+    background: #ffffff;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+#templatemo_blog img {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#templatemo_blog h1 {
+    font-size: 30px;
+    text-align: center;
+}
+#templatemo_blog .blog_text {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+#templatemo_blog .blog_text h1 {
+    padding: 0;
+    margin: 0;
+}
+#templatemo_blog .blog_text p {
+    padding: 18px 0 0 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* templatemo_contact */
+#templatemo_contact {
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+#templatemo_contact p {
+    text-align: center;
+}
+#templatemo_contact form p {
+    text-align: left;
+    padding-top: 45px;
+}
+#templatemo_contact form textarea,
+#templatemo_contact form input[type=text] {
+    width: 100%;
+    border: 2px solid #dbdbdb;
+    padding: 10px;
+}
+#templatemo_contact form input[type=text] {
+    height: 50px;
+}
+#templatemo_contact form textarea {
+    height: 180px;
+}
+#templatemo_contact form textarea:focus,
+#templatemo_contact form input[type=text]:focus {
+    border: 2px solid #c1c1c1;
+}
+#templatemo_contact form button {
+    width: 100%;
+    border: 2px solid #008fc9;
+	font-size: 20px;
+	padding: 30px;
+    background: #35a9d8;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+#templatemo_contact form button:hover {
+    background: #008fc9;
+}
+#templatemo_contact #templatemo_contact_map_wapper {
+    width: 100%;
+    height: 245px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#templatemo_contact #templatemo_contact_map {
+    width: 100%;
+    height: 245px;
+    position: absolute;
+    left: 0;
+    background: #b3e9ff;
+}
+#templatemo_footer {
+    background: #333333;
+	padding: 30px 0px;
+    margin-top: 100px;
+    font-size: 15px;
+}
+#templatemo_footer p {
+    text-align: center;
+    color: #c0c0c0;
+    padding: 0;
+    margin: 0;
+}
+#templatemo_footer a {
+    text-decoration: underline;
+    color: #333333;
+}
+
+/*  Extra small devices (phones, less than 768px)  */
+@media (max-width: 768px ) { 
+    #templatemo_banner_logo h1 {
+        font-size: 46px;
+        text-align: left;
+    }
+    #templatemo_banner_logo span {
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        text-align: left;
+    }
+	#templatemo_pricing .pricing_icon_wapper {
+		margin-bottom: 50px;
+	}
+    #templatemo_contact form button {
+		width: 100%;
+		padding: 15px;
+    }
+}
+/*  Small devices (tablets, 768px and up)  */
+@media (min-width: 768px ) { 
+
+}
+/*  Medium devices (desktops, 992px and up)  */
+@media (min-width: 992px ) {
+    #templatemo_banner_top p.right {
+        text-align: right;
+    }
+    #templatemo_banner_top {
+        height: 45px;
+    }
+}
+/*  Large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px ) {
+}

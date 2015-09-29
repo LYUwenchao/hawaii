@@ -1,0 +1,170 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_wapper {
+	width: 100%;
+	background: #c0c0c0;
+	/*background: #ffffff;*/
+	border-bottom: 1px solid #fff;
+}
+.section_header  {
+	height: 150px;
+	background: url("../images/section-header.png") center center no-repeat;
+}
+.section_header  h1 {
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+/* templatemo_main_menu */
+#templatemo_main_menu {
+	background: #e7eaef;
+	/*background: #66ffff;*/
+	border-bottom: 1px solid #d7dadd;
+	/*z-index: 1500;*/
+}
+#templatemo_main_menu .nav-justified li {
+	height: 70px;
+}
+#templatemo_main_menu .nav-justified li a {
+	height: 70px;
+	font-size: 20px;
+	line-height: 50px;
+	color: #000;
+	margin-right:0px;
+	margin-left:0px;
+}
+#templatemo_main_menu .nav-justified li a.current,
+#templatemo_main_menu .nav-justified li a:hover {
+	background: #35abd9; 
+	color: #fff;
+}
+
+/* slide picture */
+#slidepicture {
+	position: relative;
+	height: 400px;
+	margin-bottom: 80px;
+}
+
+/* item price list */
+#price_list {
+	margin-top: 0px;
+	background: #ffffff;
+	overflow: hidden;
+}
+
+#price_list h1 {
+	color: #444444;
+}
+
+#price_list .spot_item {
+	/*margin: 10px 10px 10px 10px;*/
+	margin: 0;
+	/*padding-bottom: 30px;*/
+	padding: 10px 10px 10px 10px;
+	/*min-height: 425px;*/
+	/*box-shadow: inset 0px 0px 0px 1px rgba(210, 210, 210, 1);*/
+	/*background: #eeeeee;*/
+	background: #ffffff;
+	position: relative;
+}
+
+#price_list .spot_item a {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+#price_list .spot_item a:hover{
+	outline: 3px solid #35abd9;
+}
+
+#price_list .spot_item .item_tag {
+	margin: 0;
+	height: 80px;
+}
+
+#price_list .spot_item .item_tag h4 {
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+#price_list .spot_item .item_tag .item_price {
+	background-color: #35abd9;
+	height: 50px;
+}
+
+#price_list .spot_item .item_tag .item_price h3 {
+	color: #ffffff;
+	font-size: 22px;
+	float: left;
+	width: 80px;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+
+#price_list .item_tag .item_price h4 {
+	color: #ffffff;
+	font-size: 18px;
+	float: right;
+	width: 100px;
+	margin-top: 13px;
+}
+
+/* footer */
+#templatemo_footer {
+	background: #333333;
+	padding: 30px 0px;
+	margin-top: 100px;
+	font-size: 15px;
+}
+#templatemo_footer p {
+	text-align: center;
+	color: #c0c0c0;
+	padding: 0;
+	margin: 0;
+}
+#templatemo_footer a {
+	text-decoration: underline;
+	color: #333333;
+}
+
+/*  Extra small devices (phones, less than 768px)  */
+@media (max-width: 768px ) { 
+	#templatemo_banner_logo h1 {
+		font-size: 46px;
+		text-align: left;
+	}
+	#templatemo_banner_logo span {
+		font-size: 14px;
+		line-height: 20px;
+		color: #000000;
+		text-align: left;
+	}
+	#templatemo_pricing .pricing_icon_wapper {
+		margin-bottom: 50px;
+	}
+	#templatemo_contact form button {
+		width: 100%;
+		padding: 15px;
+	}
+}
+/*  Small devices (tablets, 768px and up)  */
+@media (min-width: 768px ) { 
+
+}
+/*  Medium devices (desktops, 992px and up)  */
+@media (min-width: 992px ) {
+	#templatemo_banner_top p.right {
+		text-align: right;
+	}
+	#templatemo_banner_top {
+		height: 45px;
+	}
+}
+/*  Large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px ) {
+}
