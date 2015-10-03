@@ -71,14 +71,14 @@
 <script type="text/javascript">
 	$(function(){
 		$("#nav1").click(function(){
-			
-			alert($("body").scrollTop()+" px");
-			alert("hah");
-
-		});
+			$("html,body").animate(
+				{scrollTop:$("#maodian1").offset().top},300);
+				return false;
+		});	
 		$("#nav2").click(function(){
-			$("body").animate(
+			$("html,body").animate(
 				{scrollTop:$("#maodian2").offset().top},300);
+				return false;
 		});		
 	})
 </script>
@@ -87,9 +87,11 @@
 	<header>
 		<nav class="lnav">
 			<ul>
-				<li><a href="#">夏威夷旅游网</a></li>
-				<li><a href="">主题旅游</a></li>  <!-- 锚点跳转，下同 -->
-				<li><a href="">旅游项目</a></li>
+				<li><a href="">夏威夷旅游网</a></li>
+				<ul>
+					<li><a href="#maodian1" id="nav1">主题旅游</a></li>  <!-- 锚点跳转，下同 -->
+					<li><a href="#maodian2" id="nav2">旅游项目</a></li>
+				</ul>				
 			</ul>
 		</nav>
 		<div class="lbanner">

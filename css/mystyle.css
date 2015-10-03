@@ -9,15 +9,26 @@
 .lnav ul{
 	list-style: none;
 	margin: 0;
+	float: left;
 }
 .lnav ul li{
-	display: inline-block;
 	line-height: 50px;
-	padding-left: 20px;
+	float: left;
 }
-.lnav ul li a{
+.lnav ul ul li{
+	margin: 0 20px;
+	line-height: 50px;
+
+	float: left;
+}
+.lnav ul a{
+	height: 45px;
+	display: block;
 	text-decoration: none;
 	color: #FFF;
+}
+.lnav ul ul li a:hover{
+	border-bottom: 5px solid #fc9236;
 }
 .lbanner{
 	background: url(../images/image/first.jpg) no-repeat;
