@@ -96,6 +96,9 @@
 .lcontent-half1{
 	height: 1010px;
 }
+.lcontent-half2{
+	height: 1400px;
+}
 .linstruction{
 	width: 360px;
 	height:400px;
@@ -157,4 +160,27 @@
 }
 #maodian1,#maodian2{
 	padding-top: 50px;
+}
+.lfooter{
+	background-color: #eee;
+	height:450px;
+	width:100%; 
+	float: left;
+}
+.lfooter h2{
+	text-align: center;
+	padding-top: 20px;
+
+}
+.lfooter hr{
+	width: 60%;
+	margin: 30px auto;
+}
+.lfooter div{
+	float: left;
+	margin-left: 20px;
+}
+.lfooter img{
+	margin-left:40px;
+	float: left;
 }
