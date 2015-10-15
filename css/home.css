@@ -16,7 +16,6 @@ body {
 #pictureContainer {
     position:relative;
     width:100%;
-    height: 700px;
 
 }
 #pictureContainer img {
@@ -103,9 +102,10 @@ body {
     animation-delay: 0s;
 }
 #beginExplore{
-    position: relative;
+    position:relative;
+    padding-top: 55%;
     text-align: center;
-    z-index:1;
+    z-index:1200;
 }
 .beginExplore_button{
     margin-top: -350px;
@@ -128,7 +128,6 @@ body {
 
 .container_wapper {
     width: 100%;
-    background: #c0c0c0;
     border-bottom: 1px solid #fff;
 }
 .section_header  {
@@ -145,14 +144,47 @@ body {
 #templatemo_main_menu {
     /*background: #e7eaef;*/
     /*background: #ffffff;*/
-    background-color: rgba(255, 255, 255, 0.8);
-    border-bottom: 1px solid #d7dadd;
-    /*z-index: 1500;*/
+    border-color:rgba(0, 129, 210, 0.8);
+    background-color: rgba(0, 129, 210, 0.95);
+    /*border-bottom: 1px solid #d7dadd;*/
+    -webkit-box-shadow:0px 1px 30px #999999;
+    -moz-box-shadow:0px 1px 30px #999999;
+    box-shadow:0px 1px 10px #999999;
+    display:none;
+    z-index: 1500;
 }
+
+
+.navbar{
+    border-color:rgba(0, 129, 210, 0.8);
+    border:0px;
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #ffffff;
+    padding-bottom: 0px;
+    border-width:20px;
+    border-bottom-color: #ff0000;
+}
+.navbar-default .navbar-nav>li:focus, .navbar-default .navbar-nav>li:hover{
+    border: 2px;
+    border-width:0px;
+}
+.menu_box:hover{
+    border-bottom:3px solid black;
+    padding-bottom: 12px;
+    border-bottom-color: #ff0000;
+
+}
+
 #templatemo_main_menu .nav-justified li {
     height: 70px;
 }
 #templatemo_main_menu .nav-justified li a {
+    background-color: rgba(0,129,210,0.8);
     height: 70px;
     font-size: 20px;
     line-height: 50px;
@@ -531,13 +563,14 @@ body {
     color: #000000;
 }
 .commentboard_submit{
+    text-align: center;
     margin-top: 15px;
     background-color:#379bca;
     border-radius: 0px;
     color:#ffffff;
     height: 3em;
     border-width: 0px;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .commentboard_form{
     margin-top: 30px;
