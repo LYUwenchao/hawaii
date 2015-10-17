@@ -125,7 +125,12 @@ body {
     border-color: #fb4128;
     background-color: transparent;
 }
-
+.beginExplore_button:focus,
+.beginExplore_button:active{
+    background-color: #fb4128;
+    color: #ffffff;
+    outline: none;
+}
 .container_wapper {
     width: 100%;
     border-bottom: 1px solid #fff;
@@ -195,7 +200,7 @@ body {
 }
 #templatemo_main_menu .nav-justified li a.current,
 #templatemo_main_menu .nav-justified li a:hover {
-    background: #35abd9;
+    background: rgba(0,129,210,0.8);
     color: #fff;
 }
 
