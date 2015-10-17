@@ -46,11 +46,11 @@
     <img src="images/slide_3.jpg">
     <img src="images/slide_4.jpg">
     <div id="beginExplore">
-        <button class="btn btn-default visible-lg-inline beginExplore_button ">开始探索</button>
+        <button class="btn btn-default visible-lg-inline beginExplore_button " >开始探索</button>
     </div>
 </div>
 <div class="logo_image">
-    <img src="images/homepage/logo.png">
+    <img class="img-responsive" src="images/homepage/logo.png">
 </div>
 
 
@@ -360,7 +360,7 @@ $(document).ready(function (){
         }, 1000);
         //});
     });
-    $("#beginExplore").click(function (){
+    $(".beginExplore_button").click(function (){
         //$(this).animate(function(){
         $('html, body').animate({
             scrollTop: $("#templatemo_upcomming_event").offset().top

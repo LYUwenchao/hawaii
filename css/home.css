@@ -177,6 +177,7 @@ body {
     border-bottom:3px solid black;
     padding-bottom: 12px;
     border-bottom-color: #ff0000;
+    cursor: pointer;
 
 }
 
