@@ -83,11 +83,17 @@ body {
 }
 
 #item_content h4 {
-	color: rgba(24, 15, 15, 0.55);
+	/*color: rgba(24, 15, 15, 0.55);*/
+	font-size: 1.1em;
+    font-family: Microsoft YaHei;
+    color: #555;
 }
 
 #item_content p {
-	color: rgba(24, 15, 15, 0.55);
+	/*color: rgba(24, 15, 15, 0.55);*/
+    font-family: Microsoft YaHei;
+    color: #555;
+    font-size: 1.1em;
 }
 
 #item_content .content_blue {

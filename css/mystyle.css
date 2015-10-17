@@ -107,6 +107,9 @@
 }
 .linstruction p{
 	margin: 0;
+	font-size: 1.1em;
+    font-family: Microsoft YaHei;
+    color: #555;
 }
 .piclist1{
 	list-style: none;
@@ -148,6 +151,7 @@
 	text-align:left;
 	text-indent:2em;
 	font-size:14px;
+    font-family: Microsoft YaHei;
 }
 .piclist1 h3{
 	margin:0;
@@ -389,7 +393,7 @@
 	text-align: justify;
 	text-indent: 2em;
 	margin-top:5px;
-	color: #666;
+	color: #555;
 	font-family: Microsoft YaHei;
-	font-size: 1em;
+	font-size: 1.1em;
 }

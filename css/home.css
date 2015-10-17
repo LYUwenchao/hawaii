@@ -255,11 +255,18 @@ body {
 }
 #templatemo_upcomming_event p {
     text-align: center;
+    font-size: 1.1em;
+    font-family: Microsoft YaHei;
+    color: #555;
 }
 
 #templatemo_upcomming_event .event-header p {
-    text-align: center;
-    font-size: 18px;
+    /*text-align: center;*/
+    text-align: justify;
+    /*font-size: 18px;*/
+    font-size: 1.1em;
+    font-family: Microsoft YaHei;
+    color: #555;
 }
 
 #templatemo_upcomming_event .event_box {
@@ -356,12 +363,18 @@ body {
 
 #templatemo_pricing p {
     text-align: center;
+    font-size: 1.1em;
+    font-family: Microsoft YaHei;
+    color: #555;
 }
 
 #templatemo_pricing .pricing-header p {
-    text-align: center;
+    /*text-align: center;*/
+    text-align: justify;
     color: #ffffff;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 1.1em;
+    font-family: Microsoft YaHei;
 }
 
 #templatemo_pricing .event_box {
